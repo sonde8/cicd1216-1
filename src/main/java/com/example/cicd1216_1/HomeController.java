@@ -15,4 +15,9 @@ public class HomeController {
     public String home2() {
         return "home2";
     }
+
+    @GetMapping("/hi3")
+    public String home3() {
+        return "cicd 적용";
+    }
 }
