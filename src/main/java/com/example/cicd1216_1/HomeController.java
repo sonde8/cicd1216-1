@@ -18,6 +18,6 @@ public class HomeController {
 
     @GetMapping("/hi3")
     public String home3() {
-        return "cicd 적용";
+        return "cicd 적용!";
     }
 }
